@@ -1,0 +1,1 @@
+[Unit] Description=Student Attendance API After=network.target [Service] WorkingDirectory=/var/www/backend ExecStart=/usr/bin/dotnet StudentAttendanceAPI.dll Restart=always RestartSec=10 SyslogIdentifier=student-api User=www-data Environment=ASPNETCORE_ENVIRONMENT=Production [Install] WantedBy=multi-user.target
