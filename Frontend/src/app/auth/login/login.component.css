@@ -1,0 +1,77 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4a148c;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button[type=\"submit\"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a148c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button[type=\"submit\"]:disabled {
+  background-color: #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.register-link {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #4a148c;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 0;
+}
